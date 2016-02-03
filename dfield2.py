@@ -8,8 +8,9 @@ BOTTOM_EXTENT = -10
 TOP_EXTENT = 10
 SAMPLES = 30
 
-def dydx(y, x):
-    return -2 + x - y
+# y is a function of x. 
+def dydx(x,y):
+    return 3 - 2*y
 
 
 def main():
